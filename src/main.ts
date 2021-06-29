@@ -1,6 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import './registerServiceWorker'
-import store from './store'
+import { createApp } from 'vue';
+import App from './App.vue';
+import './registerServiceWorker';
+import store from './store';
 
-createApp(App).use(store).mount('#app')
+import '@/assets/styles/index.css';
+
+createApp(App).use(store).mount('#app');
