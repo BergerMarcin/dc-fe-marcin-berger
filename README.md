@@ -45,6 +45,18 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Node.js v.12.22.1 LTS
 
+### Changed dependencies to remove high vulnerabilities @ `package-lock.json`
+All high vulnerabilities are related to `normalize-url` or `css-what` package. These issues are not solved yet by Vue (https://github.com/vuejs/vue-cli/issues/6523)
+It could be manually removed by manual update of package dependencies @ `package-lock.json` (but it is risky if packages would work) by set fixed packages:
+```
+css-what
+"version": "5.0.1",
+"resolved": "https://registry.npmjs.org/css-what/-/css-what-5.0.1.tgz",
+"integrity": "sha512-FYDTSHb/7KXsWICVsxdmiExPjCfRC4qRFBdVwv7Ax9hMnvMmEjP9RfxTEZ3qPZGmADDn2vAKSo9UcN1jKVYscg=="
+```
+
+<br/><hr/>
+
 <br/><hr/>
 
 # App requirements
@@ -66,7 +78,7 @@ Vue should add link to Tailwind website url as stated above)
 0. Set-up new project with `Vue CLI` `vue create dc-fe-marcin-berger` (including Vue 3.x, Vue CLI, Vuex, TS, ESLint) & start-up app
 1. Readme.md, Requirements.md, License
 2. Add TailwindCSS, add initial styles, add favicon
-3. Fix issues with packages (if possible) created by Vue CLI
+3. Fix issues with packages (if possible) created by Vue CLI - removed high vulnerabilities
 4. Prepare rough table with data with search/filtration
 5. Add `GraphQL` (with welcome data page/view)
 6. Add `Web Storage` to keep users's favourite characters (in the future moved to DB with tables/collections users & characters)
@@ -74,4 +86,4 @@ Vue should add link to Tailwind website url as stated above)
 8. Deploy to `netlify`
 
 ### Actual development progress:
-p.0-2 DONE! 😁
+p.0-3 DONE! 😁
