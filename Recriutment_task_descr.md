@@ -15,15 +15,12 @@
  - You have a week (5 business days) to complete the task.
 
 # Guidelines
- - Remember to design it with scalability in mind. Think of it as an MVP of an application
- - that might be substantially extended in the future.
- - Think of handling edge cases and unexpected scenarios that are not visible at first
- - glance on the Figma wireframe. We’re going to do a thorough QA of your app.
+ - Remember to design it with scalability in mind. Think of it as an MVP of an application that might be substantially extended in the future.
+ - Think of handling edge cases and unexpected scenarios that are not visible at first glance on the Figma wireframe. We’re going to do a thorough QA of your app.
  - We really pay attention to the detail. Pixel perfect approach is a must.
  - Remember about mobile devices and users with retina screens.
  - Make sure you read all the requirements twice. We’re going to check that as well.
- - We left some space for interpretation and creativity. If you have a question, try to figure it
- - out on your own.
+ - We left some space for interpretation and creativity. If you have a question, try to figure it out on your own.
    
 # How to earn additional scores
  - Prove that you’re up to date with the latest technology. For example, using the latest ECMAScript standard or Vue 3 (or at least some of its elements like Composition API) would be a huge plus.

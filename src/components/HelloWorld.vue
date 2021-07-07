@@ -31,10 +31,12 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  <pre>characters: {{ characters }}</pre>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+import { fixtureCharacters } from '../fixture-characters';
 
 @Options({
   props: {
@@ -42,7 +44,8 @@ import { Options, Vue } from 'vue-class-component';
   }
 })
 export default class HelloWorld extends Vue {
-  msg!: string
+  msg!: string;
+  characters = fixtureCharacters;
 }
 </script>
 

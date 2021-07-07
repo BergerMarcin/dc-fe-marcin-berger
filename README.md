@@ -60,7 +60,7 @@ css-what
 <br/><hr/>
 
 # App requirements
-See file [Recriutment_ask_descr.md](./Recriutment_ask_descr.md)
+See file [Recriutment_task_descr.md](./Recriutment_task_descr.md)
 
 <br/><hr/>
 
